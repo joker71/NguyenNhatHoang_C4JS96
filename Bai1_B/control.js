@@ -22,10 +22,11 @@ let  scott=0;
 
 btn[0].addEventListener('click', (e) => {
     index++;
-    if (index == 2) {
+    if (index == 3) {
         alert(`Bạn hết lượt !: DDieetm ${scott}`);
     }
-    else {
+    else 
+    {
         console.log(e);
         let i_value = parseInt(input.value);
         console.log(i_value);
@@ -33,7 +34,7 @@ btn[0].addEventListener('click', (e) => {
         console.log(r_value);
         let a_value = [i_value, r_value];
 
-        if (i_value == a_value[Math.floor(Math.random() * 2)]) {
+        if (i_value === a_value[Math.floor(Math.random() * 2)]) {
             alert("Bạn đã trúng thưởng");
             scott++;
         }
