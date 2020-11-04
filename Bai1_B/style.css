@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    background-color: red;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    margin: 0;
+}
+.play-container{
+    background-color: turquoise;
+    padding: 10px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#form{
+    color: tomato;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
